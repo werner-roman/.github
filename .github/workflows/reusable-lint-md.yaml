@@ -2,6 +2,9 @@
 
 name: Markdown linting for documentation
 
+on:
+  workflow_call:
+
 jobs:
   lint-md:
     name: Check files against markdown linter

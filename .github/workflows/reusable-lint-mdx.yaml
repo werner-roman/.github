@@ -2,6 +2,9 @@
 
 name: Markdown linting for documentation
 
+on:
+  workflow_call:
+
 jobs:
   check-mdx:
     name: Check files against mdx checker
@@ -16,4 +19,3 @@ jobs:
         run: npm i docusaurus-mdx-checker
       - name: Run mdx-checker
         run: npx docusaurus-mdx-checker
-        
