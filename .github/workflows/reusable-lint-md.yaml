@@ -1,0 +1,16 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Markdown linting for documentation
+
+jobs:
+  lint-md:
+    name: Check files against markdown linter
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: DavidAnson/markdownlint-cli2-action@v15
+      with:
+        config: '.markdownlint.yaml'
+        globs: |
+          docs/**/*.md
+  
