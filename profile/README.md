@@ -1,4 +1,4 @@
-# Welcome to the Catena-X association🙌1
+# Welcome to the Catena-X association🙌
 
 - the website for the contents of GitHub: [Catena-X.github.io](https://catenax-ev.github.io/)🔗  
 - the Catena-X website: [Catena-X.net](https://catena-x.net/en/)🔗
