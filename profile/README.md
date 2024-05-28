@@ -5,3 +5,5 @@
 
 The Catena-X reference implementations can be found in [Tractus-X](https://eclipse-tractusx.github.io/)🔗
 testmain
+
+sone additional details
